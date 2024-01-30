@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hang Man Game</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="./assets/js/word-list.js" defer></script>
+    <script src="./assets/js/script.js" defer></script>
+</head>
+
+<body>
+    <div class="game-modal">
+        <div class="content">
+            <img src="./assets/images/lost.gif" alt="Victory or lost image">
+            <h4></h4>
+            <p></p>
+            <button class="play-again">Play Again</button>
+        </div>
+    </div>
+    <div class="container">
+        <div class="hang-man-box">
+            <img src="./assets/images/hangman-0.svg" alt="hang man image">
+            <h1>Hang Man Game</h1>
+        </div>
+        <div class="game-box">
+            <ul class="word-display">
+                <li class="letter"></li>
+                <li class="letter"></li>
+                <li class="letter"></li>
+                <li class="letter ">a</li>
+                <li class="letter"></li>
+                <li class="letter"></li>
+                <li class="letter"></li>
+            </ul>
+            <h4 class="hint-text">
+                Hint: <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis, consequuntur.</span>
+            </h4>
+            <h4 class="guess-text">
+                Incorrect Guesses : <span><span class="count">0</span> /6</span>
+            </h4>
+            <div class="keyboard"></div>
+
+        </div>
+    </div>
+
+    
+</body>
+
+</html>
