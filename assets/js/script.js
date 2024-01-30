@@ -71,3 +71,7 @@ for (let keyboardButton = 97; keyboardButton <= 122; keyboardButton++) {
 playAgain.addEventListener("click", () => {
   document.location.reload(true);
 });
+const refreash = document.querySelector(".refreash");
+refreash.addEventListener("click", () => {
+  document.location.reload(true);
+});
